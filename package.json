@@ -1,0 +1,30 @@
+{
+  "name": "hw-14",
+  "version": "1.0.0",
+  "description": "hw-14",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cthach010/Hw-14.git"
+  },
+  "author": "Christina Thach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cthach010/Hw-14/issues"
+  },
+  "homepage": "https://github.com/cthach010/Hw-14#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.1.2",
+    "morgan": "^1.9.0",
+    "node": "^10.1.0",
+    "request": "^2.87.0"
+  }
+}
