@@ -1,9 +1,11 @@
 // require the dependencies
+var express = require("express");
+var router = express.Router();
 var cheerio = require("cheerio");
 var request = require("request");
 var Note = require("../models/Note.js");
 var Article = require("../models/Article.js");
-var Save = require("../models/Save");
+// var Save = require("../models/Save");
 
 module.exports = function (app) {
     app.get("/scrape", function (req, res) {
